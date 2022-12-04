@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height:  100vh;
+    text-align: center;
+}
+
+.image-container {
+    height: 50%;
+    margin: 5rem auto;
+    width: 75%
+}
+
+img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.btn {
+    color: rgb(214, 48, 101);
+    background: pink;
+    border-color: rgb(215, 78, 122);
+    border-radius: 5px;
+    font-size: 1.5rem;
+    margin: 2rem;
+    padding: 1rem;
+
+}
+
+.btn:hover {
+    background-color: rgb(142, 205, 187);
+    transform: translateY(-2px)
+
+}
+
+.btn:active {
+    transform: translateY(2px)
+}
